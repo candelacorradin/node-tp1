@@ -8,6 +8,7 @@ Trabajo práctico de introducción a Node.js. El script `app.js` muestra un mens
 node-tp1/
 ├── app.js       # Script principal: presentación, módulo os y módulo propio
 ├── mensaje.js   # Módulo propio que exporta obtenerMensaje()
+├── screenshots/ # Capturas de la instalación y la ejecución
 └── README.md
 ```
 
@@ -19,6 +20,8 @@ node-tp1/
 node -v
 npm -v
 ```
+
+![Verificación de Node.js y npm](screenshots/instalacion.png)
 
 ## Cómo clonar y ejecutar
 
@@ -36,12 +39,14 @@ Nombre: Candela Corradin
 Motivo para aprender backend: Quiero aprender backend para construir aplicaciones completas de punta a punta y diseñar las APIs e integraciones que conectan productos con IA.
 
 === Información del sistema (módulo os) ===
-Sistema operativo: Linux (linux)
-Memoria libre: 7548.14 MB
+Sistema operativo: Darwin (darwin)
+Memoria libre: 141.88 MB
 
 === Módulo propio ===
 ¡Hola, Candela Corradin! Este mensaje viene de un módulo propio (mensaje.js).
 ```
+
+![Ejecución de node app.js](screenshots/ejecucion.png)
 
 > El sistema operativo y la memoria libre varían según el equipo donde se ejecute.
 
